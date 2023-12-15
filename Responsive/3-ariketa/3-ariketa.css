@@ -1,0 +1,58 @@
+ .ariketa-1, .ariketa-2, .ariketa-3, .ariketa-4, .ariketa-5 {
+   display: none;
+ }
+
+ .logo, .nav, .element-1, .element-2, .element-3, .element-4, .element-5, .foot1, .foot2{
+  border: 1px solid black;
+ }
+
+ .container {
+   display: flex;
+   order: column;
+ }
+
+ .nav-bar {
+   display: flex;
+   order: row;
+ }
+
+ .zutabea {
+   display: flex;
+   order: row;
+ }
+
+ .footer {
+   display: flex;
+   order: row;
+ }
+
+ @media screen and (min-width: 1200px) {
+   .ariketa-1 {
+     display: block;
+   }
+ }
+
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .ariketa-2 {
+     display: block;
+   }
+ }
+
+ @media (min-width: 768px) and (max-width: 992px) {
+   .ariketa-3 {
+     display: block;
+   }
+ }
+
+ @media (min-width: 576px) and (max-width: 768px) {
+   .ariketa-4 {
+     display: block;
+   }
+ }
+
+ @media screen and (max-width: 576px) {
+   .ariketa-5 {
+     display: block;
+   }
+ }
+

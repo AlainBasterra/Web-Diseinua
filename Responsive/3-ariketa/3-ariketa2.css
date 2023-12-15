@@ -1,0 +1,33 @@
+.cabecera {
+  background-color: blue;
+  color: white;
+}
+
+
+
+.cabecera-text {
+  font-size: 18px;
+}
+
+
+@media (min-width: 768px) {
+  .ariketa-1 {
+    display: block !important;
+  }
+
+  .content {
+    width: 768px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .ariketa-2 {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ariketa-3 {
+    display: block !important;
+  }
+}
