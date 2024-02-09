@@ -1,0 +1,11 @@
+.argazkia {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrousel-bts {
+    margin: auto;
+    max-width: 1200px;
+    max-height: 800px;
+}
